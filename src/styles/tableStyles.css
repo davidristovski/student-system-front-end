@@ -1,0 +1,46 @@
+.table-container {
+  width: 100%;
+  padding-left: 50px;
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  padding: 8px;
+  border: 1px solid #ddd;
+  white-space: nowrap;
+}
+td {
+  padding: 8px;
+  border: 1px solid #ddd;
+  white-space: nowrap;
+}
+td:last-child {
+  padding: 8px;
+  border: 1px solid #ddd;
+  white-space: nowrap;
+  text-align: center;
+}
+th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #e2e2e2;
+}
+
+.delete-icon {
+  color: red;
+  cursor: pointer;
+}
